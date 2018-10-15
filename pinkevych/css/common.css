@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Unna', serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+img {
+    width:100%;
+}
+
+li {
+    list-style: none;
+}
+.background-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: center / cover no-repeat url(../assets/back.jpg);
+    /* filter: blur(7px); */
+    /* как-то мне не сильно нравится с размытием  */
+    min-width: 100vw;
+    min-height: 100vh;
+    box-shadow: inset 0px 0px 5px 2px rgb(0, 0, 0)
+}
+.link:hover {
+    background-color: rgba(63, 63, 71, .77);
+    color: #47B7CF;
+}
